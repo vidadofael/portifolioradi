@@ -1,0 +1,61 @@
+    
+.sobre__mim{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 5rem;
+    margin: 10px 2rem;
+    
+    box-shadow: 0 0 10px rgba(100, 100, 100, .2);
+    border-radius: 10px;
+    color: #464646;
+}    
+
+
+
+.img__redes img{
+    width: 200px;
+    border-radius: 100%;
+}
+
+.text__sobre-mim h1{
+    font-size: 52px;
+    font-weight: 700;
+    max-width: 650px;
+}
+
+
+.redes a{
+    padding-right: 1rem;
+    text-decoration: none;
+    color: #464646;
+    font-weight: 500;
+    max-width: 80px;
+}
+
+.redes img{
+    padding-left: .3rem;
+    padding-top: 1rem;
+}
+
+
+/*celular*/
+@media screen and (max-width: 465px) {
+    .text__sobre-mim h1{
+        font-size: 40px;
+    }
+    .img__redes img{
+        display: none;
+    }
+    .sobre__mim {
+        padding: 20px
+    }
+}
+
+
+/*tablet*/
+@media screen and (min-width: 0px) and (max-width: 740px){
+    .img__redes img{
+        display: none;
+    }
+}
