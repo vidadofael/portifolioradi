@@ -1,0 +1,30 @@
+.skills{
+    text-align: center;
+    color: #464646;
+    font-size: 18px;
+}
+
+.skills__itens{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.cards__skills{
+    width: 120px;
+    height: 100px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: start;
+    flex-direction: column-reverse;
+    padding-top: 2rem;
+    padding-left: .5rem;  
+}
+
+.cards__skills p{
+    margin: 5px 0 10px;
+}
+
