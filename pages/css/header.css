@@ -53,6 +53,12 @@
   .topo h3 {
     padding-left: 10px;
   }
+
+  .bandeira__topo{
+    display: flex;
+    justify-content: space-around;
+
+  }
   
   .email__topo a {
     font-size: 14px;
@@ -135,8 +141,8 @@
 
   .card__item{
     box-shadow: var(--bloco);
-    width: 80px;
-    height: 70px;
+    width: 90px;
+    height: 80px;
     display: flex;
     justify-content: flex-start;
     flex-direction: column-reverse;
@@ -148,6 +154,11 @@
     width: 25px;  
   }
 
+  .card__img img{
+    width: 50px;
+    
+  }
+
 
 
 
@@ -157,7 +168,7 @@
 
   
   /*tela de computador */
-  @media screen and (max-width: 940px) {
+  @media screen and (max-width: 965px) {
     .navegacao {
       display: none;
     }
@@ -176,7 +187,7 @@
     .grupo__card{
         justify-content: center;
         flex-wrap: wrap;
-        gap: 15px;
+        gap: 25px;
     }
   }
   
@@ -244,3 +255,4 @@
     }
     
 }
+
