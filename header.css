@@ -173,6 +173,11 @@
     .sobre__mim{
         padding: 1rem 3rem;
     }
+    .grupo__card{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
   }
   
   /*tela de tablet*/
