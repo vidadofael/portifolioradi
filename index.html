@@ -1,161 +1,105 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="./folha.css" />
-    <link rel="stylesheet" href="./css/sobre__mim.css">
-    <link rel="stylesheet" href="./css/descricao.css">
-    <link rel="stylesheet" href="./css/skills.css">
-
-    <title>Raphael | Portifólio</title>
-  </head>
-  <body>
-
-
-    <header class="topo">
-        <div class="logo">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./header.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <header class="container__topo">
+        <div class="topo">
             <img src="./img/logo_blue.png" alt="logo radi" />
             <h3>Raphael Dias</h3>
         </div>
 
-        <nav class="menu">
-            <a href="">Sobre mim</a>
-            <a href="">Habilidades</a>
-            <a href="">Certificações</a>
-            <a href="">Projetos</a>
+        <nav class="navegacao">
+            <a href="#">About me</a>
+            <a href="#">Skills</a>
+            <a href="#">Certification</a>
+            <a href="#">Projects</a>
         </nav>
 
-        <div class="email">
+        <div class="email__topo">
             <a href="mailto:vidadofael@gmail.com">vidadofael@gmail.com</a>
         </div>
-    </header>    
 
-    <section class="sobre__mim">
-        <div class="text__sobre-mim">
+    </header> 
+
+
+    <main class="container__apresentacao">
+        <div class="textos__apresentacao">
             <h1>
-                Olá, meu nome é Raphael e construo páginas web.
+                Hello, I'm Raphael Dias and I build web pages.
             </h1>
-            <p>
-                Desenvolvendo interfaces que conectam pessoas e tornam o mundo mais acessível.
-            </p>
-            <div class="redes">
-                <div><a href="https://github.com/vidadofael" target="_blank">Github</a><img src="./img/seta.png" alt="link para github"></div>
-                <div><a href="https://www.linkedin.com/in/raphaeldiasld/" target="_blank">LinkedIN</a><img src="./img/seta.png" alt="link para o linkedin"></div>
-                <div><a href="https://www.instagram.com/dev_phdias/" target="_blank">Instagram</a><img src="./img/seta.png" alt="link para o instagram" target="_blank"></div>
-                <div><a href="https://drive.google.com/file/d/1MLcUsS5o0GTFgX0LWHkRGn4mKB-l2IFp/view?usp=sharing" target="_blank">Currículo</a><img src="./img/seta.png" alt="link para o currículo no google drive"></div>
+            <h3>
+                Developing interfaces that connect people and make the world more accessible.
+            </h3>
+            <div class="redes__sociais">
+                <div><a href="https://github.com/vidadofael" target="_blank" title="GitHub" ><img src="./img/icons8-github-48.png" alt="link para github"></a></div>
+                <div><a href="https://www.linkedin.com/in/raphaeldiasld/" target="_blank" title="LinkedIN"><img src="./img/icons8-linkedin-48.png" alt="link para o linkedin"></a></div>
+                <div><a href="https://www.instagram.com/dev_phdias/" target="_blank" title="Instagram"><img src="./img/icons8-instagram-48.png" alt="link para o instagram" target="_blank"></a></div>
+                <div><a href="https://drive.google.com/file/d/1MLcUsS5o0GTFgX0LWHkRGn4mKB-l2IFp/view?usp=sharing" target="_blank" title="Download Curriculum"><img src="./img/icons8-negócios-50.png" alt="link para o currículo no google drive"></a></div>
             </div>
         </div>
-        <div class="img__redes">
-            <img src="./img/foto__perfil.jpeg" alt="">
+        <div class="img__apresentacao">
+            <img src="./img/rapha__portifolio.png" alt="">
         </div>
-    </section>
+    </main>
 
 
-    <section class="descricao">
+    <section class="sobre__mim">
         <blockquote>
-            "Minha paixão pela tecnologia me levou a me especializar em plataformas digitais e e-commerce, onde me destaco em programação Python e Javascript, além de ferramentas como Zendesk, Salesforce e DataBricks. Meu conhecimento de programação me levou a me especializar em programação Oracle One, Front-end Javascript e HTML. <br>
+            "My passion for technology led me to specialize in digital platforms and e-commerce, where I excel in Python and Javascript programming, as well as tools such as Zendesk, Salesforce and DataBricks. My programming knowledge led me to <strong>specialize in Front-end web programming in the Oracle One + Alura Latam Teaching Program.</strong>
+        <blockquote>
 
-            Como um universitário comprometido com minha educação contínua, busco continuamente expandir meus conhecimentos em tecnologia. Sou resiliente e estou sempre aberto a novos desafios, procurando sempre maneiras de usar minha experiência e conhecimento para impactar positivamente o maior número de pessoas possível."
         </blockquote>
-        <p>Raphael Dias</p>
+        As a college student committed to my continuing education, I am continually looking to expand my knowledge of technology. I am resilient and always open to new challenges, always looking for ways to use my experience and knowledge to positively <strong>impact as many people as possible</strong> - Raphael Dias"
+        </blockquote>
     </section>
 
-    <section class="skills">
+
+    <section class="container__cards">
         <h1>
             Skills
         </h1>
 
         <div class="grupo__card">
-            <div class="cards__item">
-                <p>Html 5</p>
+            <div class="card__item">
+                <h3>Html 5</h3>
                 <img src="./img/html.png" alt="logo html">
             </div>
-            <div class="cards__item">
-                <p>Javascript</p>
+            <div class="card__item">
+                <h3>Javascript</h3>
                 <img src="./img/js.png" alt="logo javascript">
             </div>
-            <div class="cards__item">
-                <p>PHP</p>
+            <div class="card__item">
+                <h3>PHP</h3>
                 <img src="./img/php.png" alt="logo php">
             </div>
-            <div class="cards__item">
-                <p>Node JS</p>
+            <div class="card__item">
+                <h3>Node JS</h3>
                 <img src="./img/node.png" alt="logo node js">
             </div>
-            <div class="cards__item">
-                <p>React</p>
+            <div class="card__item">
+                <h3>React</h3>
                 <img src="./img/react.png" alt="logo react">
             </div>
-            <div class="cards__item">
-                <p>CSS 3</p>
+            <div class="card__item">
+                <h3>CSS 3</h3>
                 <img src="./img/css.png" alt="logo css">
             </div>
         </div>
     </section>
 
-    <section class="skills">
-        <h1>
-            Habilidades
-        </h1>
-
-        <div class="grupo__card">
-            <div class="cards__itemHb">
-                <p>Figma</p>
-                <img src="./img/figma.png" alt="logo html">
-            </div>
-            <div class="cards__itemHb">
-                <p>Ilustrator</p>
-                <img src="./img/ilustrator.png" alt="logo javascript">
-            </div>
-            <div class="cards__itemHb">
-                <p>Canva</p>
-                <img src="./img/logo_canva.webp" alt="logo php">
-            </div>
-            <div class="cards__itemHb">
-                <p>mySql</p>
-                <img src="./img/MySQL-Logo.png" alt="logo node js">
-            </div>
-            
-        </div>
-    </section>
 
 
-    <section class="card__fa">
-        <h1>
-            Formação Acadêmica
-        </h1>
 
-        <div class="grupo__card-Pai">
-            <div class="grupo__card">
-                <div class="cards__itemFa">
 
-                    <p>Esp. Dev web Front-End</p>
-                    <p>Alura - 2023</p>
-                    <img src="./img/alura.png" alt="logo html">
-                    
-                </div>
-                
-            </div>
-            <div class="grupo__card">
-                <div class="cards__itemFa">
-                    <p>Gestão Tec. e-commerce</p>
-                    <p>Uninter - 2023</p>
-                    <img src="./img/logo_uninter.png" alt="logo javascript">
-                </div>
-            </div>
-            <div>
-                <div class="cards__itemFa">
-                    <p>Empreendedorismo</p>
-                    <p>Sebrae - 2016</p>
-                    <img src="./img/sebrae.png" alt="logo php">
-                </div>
-            </div>
-        </div>
-        
-    </section>
-  </body>
+</body>
 </html>

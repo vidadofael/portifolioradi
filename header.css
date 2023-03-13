@@ -1,0 +1,241 @@
+/*variáveis*/
+:root {
+    --cor-texto: #464646;
+    --bloco: 0 0 10px rgba(100, 100, 100, .2);
+    --borda-bloco: 10px;
+  }
+  
+  /*reset padrão*/
+  * {
+    margin: 0;
+    border: 0;
+  }
+  
+  /*estilos globais*/
+  body {
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  h1, h2, h3, p, a {
+    text-decoration: none;
+    list-style: none;
+    color: var(--cor-texto);
+  }
+  h3{
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+ 
+  
+  /*estilos para os blocos*/
+  .container__topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: var(--bloco);
+    border-radius: var(--borda-bloco);
+    padding: 1rem;
+    margin: 1rem;
+  }
+  
+  .topo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .topo img {
+    width: 100px;
+    border-radius: var(--borda-bloco);
+  }
+  
+  .topo h3 {
+    padding-left: 10px;
+  }
+  
+  .email__topo a {
+    font-size: 14px;
+    margin: 10px;
+    font-weight: 700;
+  }
+
+  .navegacao a{
+    padding-right: 1rem;
+    transition: transform 0.3s ease-out;
+  }
+
+  .navegacao a:hover{
+    transform: translateY(-5px);
+  }
+  
+
+
+
+
+  /*bloco da apresentação*/
+  .container__apresentacao{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: var(--bloco);
+    border-radius: var(--borda-bloco);
+    padding: 1rem;
+    margin: 1rem;
+  }
+  .textos__apresentacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+  }
+  .redes__sociais{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .redes__sociais img{
+    width: 40px;
+  }
+
+  .img__apresentacao img{
+    width: 150px;
+    border-radius: 500px;
+  }
+
+
+  /*bloco sobre mim*/
+  .sobre__mim{
+    background-color: #1750B9;
+    color: white;
+    padding: 1rem 8rem;
+  }
+
+  .sobre__mim blockquote{
+    padding-top: .5rem;
+  }
+
+
+
+
+    /*cards*/
+
+  .container__cards h1{
+    text-align: center;
+    padding-top: 2rem;
+  }
+  .grupo__card{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: var(--bloco);
+    border-radius: var(--borda-bloco);
+    padding: 1rem;
+    margin: 1rem;
+  }
+ 
+
+
+  .card__item{
+    box-shadow: var(--bloco);
+    width: 80px;
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+    padding: 1rem;
+    border-radius: 5px; 
+  }
+
+  .card__item img {
+    width: 25px;  
+  }
+
+
+
+
+
+
+
+
+  
+  /*tela de computador */
+  @media screen and (max-width: 940px) {
+    .navegacao {
+      display: none;
+    }
+    .container__topo {
+      justify-content: space-evenly;
+    }
+    .container__apresentacao{
+        flex-direction: column-reverse;
+    }
+    .redes__sociais{
+        padding-top: .5rem;
+    }
+    .sobre__mim{
+        padding: 1rem 3rem;
+    }
+  }
+  
+  /*tela de tablet*/
+  @media screen and (max-width: 550px) {
+    .container__topo {
+      padding: .5rem;
+      flex-direction: column;
+      align-items: center;
+    }
+    .topo{
+        flex-direction: column;
+    }
+    .topo img {
+      width: 60px;
+    }
+    .topo h3 {
+      padding: 0;
+    }
+    .email__topo a {
+      font-size: 12px;
+    }
+    .redes__sociais{
+        padding-top: .5rem;
+    }
+    .sobre__mim{
+        padding: 1rem 2rem;
+    }
+  }
+
+  /*tela intermediária*/
+  @media screen and (max-width: 475px) {
+    .redes__sociais{
+        flex-direction: column;
+        align-items: center;
+        padding-top: .5rem;
+    }
+    .redes__sociais div{
+        padding: .5rem;
+        border: 1px solid rgb(192, 192, 255);
+        width: 100px;
+        text-align: center;
+        border-radius: 5px;
+        margin: 3px;
+    }
+    .redes__sociais div:hover{
+        background-color: #7da1e4;
+    }
+  }
+    .img__apresentacao{
+        text-align: center;
+    }
+    .textos__apresentacao h3{
+        padding-top: 1rem;
+        font-weight: 500;
+    }
+  
+  /*tela de celular*/
+  @media screen and (max-width: 370px) {
+    .container__topo {
+      flex-direction: column;
+    }
+    .sobre__mim{
+        padding: 1rem;
+    }
+    
+}
