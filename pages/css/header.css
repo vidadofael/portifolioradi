@@ -291,6 +291,96 @@
 
 
 
+
+  .container__formulario {
+    display: flex;
+    padding: 2rem;
+    background-color: #1750B9;
+  }
+
+  .form__img img {
+    width: 300px;
+  }
+
+  .contato {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 1rem;
+  }
+  .dados__contato p{
+    padding-top: 1rem;
+    color: white;
+  }
+  .dados__contato h3{
+    color: white;
+  }
+  
+
+  /* campos de preenchimento do formulário*/
+.form__campos {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 50vw;
+  font-size: .8em;
+  padding: 15px;
+  border: none;
+  border-bottom: 3px solid #ccc;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder {
+  color: #aaa;
+  font-size: 1em;
+  transition: all 0.3s ease-in-out;
+}
+
+button[type="submit"] {
+  background-color: #ffffff;
+  width: 200px;
+  color: #1e90ff;
+  border: none;
+  padding: 1px 0px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: #0080ff;
+}
+
+input[type="text"]:focus::placeholder,
+input[type="email"]:focus::placeholder,
+textarea:focus::placeholder {
+  font-size: 0.6em; /* Diminui o tamanho da fonte do placeholder ao focar no campo */
+  transition: all 0.5s ease-in-out; /* Adiciona uma transição suave de 0.5 segundos */
+  transform: translate(-10px, -40px); /* Move o placeholder para a posição desejada */
+}
+
+  
+  /*rodape*/
+
+.container__rodape{
+  text-align: center;
+  padding: 2rem;
+}
+
+
+
+
+
+
   
   /*tela de computador */
   @media screen and (max-width: 965px) {
