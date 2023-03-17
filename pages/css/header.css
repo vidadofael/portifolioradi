@@ -161,7 +161,42 @@
 
 
 
+  .formacao__academica{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    background-color: #EAF2FD;
+    
+  }
 
+  .formacao__academica h1{
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .card__formacao{
+    box-shadow: var(--bloco);
+    width: 150px;
+    display: flex;
+    justify-content: center; 
+    background-color: white; 
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: var(--bloco); 
+  }
+
+  .card__formacao img{
+    width: 80px;
+    border-radius: 5px;
+  }
+
+  .card__geral-formacao {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
 
 
 
