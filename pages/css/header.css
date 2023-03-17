@@ -407,6 +407,9 @@ textarea:focus::placeholder {
     .bloco__experiencia img{
       width: 250px;
     }
+    .form__img img {
+      display: none;
+    }
   }
   
   /*tela de tablet*/
@@ -445,6 +448,7 @@ textarea:focus::placeholder {
       padding: 1rem;
       text-align: center;
     }
+    
     
   }
 
